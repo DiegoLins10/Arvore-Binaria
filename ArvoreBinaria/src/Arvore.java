@@ -33,7 +33,7 @@ public class Arvore {
 			else {
 				if (e < aux2.elemento)
 					aux2.esquerda = novo;
-				if (e > aux2.elemento)
+				else if (e > aux2.elemento)
 					aux2.direita = novo;
 				System.out.println("Elemento Incluído");
 			}
